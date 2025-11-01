@@ -1,14 +1,13 @@
 package database
 
 import (
-	"fmt"
-	"log"
-	"os"
-	"strconv"
+    "log"
+    "os"
     "github.com/Oik17/yantra-hack/internal/utils"
-	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq" // Import the PostgreSQL driver
+    "github.com/jmoiron/sqlx"
+    _ "github.com/lib/pq"
 )
+
 
 type Dbinstance struct {
 	Db *sqlx.DB
