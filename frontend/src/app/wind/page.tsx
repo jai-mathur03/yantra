@@ -93,8 +93,8 @@ const WindPage = () => {
             params: {
               latitude,
               longitude,
-              startdate: "2025-02-10",
-              enddate: "2025-02-17",
+              star_tdate: "2025-02-10",
+              end_date: "2025-02-17",
             },
           }
         );
